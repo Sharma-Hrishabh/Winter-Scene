@@ -97,7 +97,7 @@ transform: translate(-50%,-50%);
      position: absolute;
      width: 0%;
      height: 100%;
-     background: #00f0b5;
+     background: red;
      animation: rev-block 2.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
      animation-delay: 1s;
 }
@@ -139,7 +139,7 @@ transform: translate(-50%,-50%);
 }
 
 #onemore.rev-block:after {
-     background: #5e239d;
+     background: #fff;
      animation-delay: 1.4s;
 }
 
