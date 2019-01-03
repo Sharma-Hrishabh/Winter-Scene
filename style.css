@@ -3,7 +3,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  font-family: sans-serif;
+  font-family: 'Snowburst One', cursive;
 }
 
 audio{
@@ -151,8 +151,7 @@ transform: translate(-50%,-50%);
 }
 
 h1{
-  font-weight:400;
-  letter-spacing: 5px;
+  font-family: 'Snowburst One', cursive;
   animation: colorchange 20s infinite alternate;
 }
 
