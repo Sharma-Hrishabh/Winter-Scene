@@ -1,0 +1,92 @@
+body{
+  background-image: url('1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  color:white;
+  font-family: sans-serif;
+}
+
+audio{
+  right:0px;
+  bottom:0px;
+  position: absolute;
+}
+
+.container, .snow {
+  z-index: 100;
+  pointer-events: none;
+}
+
+.container {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+.snow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-animation: falling linear infinite both;
+          animation: falling linear infinite both;
+  -webkit-transform: translate3D(0, -100%, 0);
+          transform: translate3D(0, -100%, 0);
+          -webkit-animation-duration: 10s;
+                  animation-duration: 10s;
+          background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-large-075d267ecbc42e3564c8ed43516dd557.png");
+          background-size: contain;
+}
+
+@-webkit-keyframes falling {
+  0% {
+    -webkit-transform: translate3D(-7.5%, -100%, 0);
+            transform: translate3D(-7.5%, -100%, 0);
+  }
+  100% {
+    -webkit-transform: translate3D(7.5%, 100%, 0);
+            transform: translate3D(7.5%, 100%, 0);
+  }
+}
+
+@keyframes falling {
+  0% {
+    -webkit-transform: translate3D(-7.5%, -100%, 0);
+            transform: translate3D(-7.5%, -100%, 0);
+  }
+  100% {
+    -webkit-transform: translate3D(7.5%, 100%, 0);
+            transform: translate3D(7.5%, 100%, 0);
+  }
+}
+
+
+
+.intro span{
+  display:block;
+}
+.intro{
+  text-align:center;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width:100%;
+}
+.first{
+  font-size: 65px;
+  font-weight: 600;
+  letter-spacing: 8px;
+  margin-bottom: -40px;
+  background: transparent;
+  position: relative;
+}
+
+.second{
+  font-size: 30px;
+}
