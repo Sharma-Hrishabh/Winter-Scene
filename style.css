@@ -4,6 +4,8 @@ body{
   background-size: cover;
   overflow: hidden;
   font-family: 'Snowburst One', cursive;
+  margin:0;
+  padding:0;
 }
 
 audio{
@@ -267,3 +269,5 @@ h1{
    transform: rotateY(180deg);
   }
 }
+
+/* christmas-light */

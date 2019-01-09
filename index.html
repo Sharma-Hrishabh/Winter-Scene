@@ -8,7 +8,11 @@
 
   </head>
   <body>
-    <audio src="sound.mp3" controls autoplay></audio>
+    <!-- <audio autoplay src="sound.mp3" controls></audio> -->
+<iframe src="silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+<audio id="player" autoplay loop>
+    <source src="source.mp3" type="audio/mp3">
+</audio>
     <div class="container">
           <div class="snow"></div>
     </div>
